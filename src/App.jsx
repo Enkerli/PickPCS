@@ -11,7 +11,7 @@ function mod(n, m) {
 function pcsToBitmaskDecimal(pcs) {
   let value = 0;
   pcs.forEach((pc) => {
-    value += 2 ** pc;
+    value += 2 ** (11 - pc);
   });
   return value;
 }
