@@ -1,10 +1,33 @@
 # Concentric PCS Picker
 
-An interactive visualization and selection tool for pitch-class sets (PCS), organized as concentric rings based on Euclidean scale families (k = 3–8), with chordal subsets derived in degree order.
+Interactive concentric-circle picker for pitch-class sets (PCS), exploring relationships between scale families (k = 3–8) and their chordal subsets in a circle-of-fifths layout.
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## GitHub Pages
+
+This repo is configured for deployment to GitHub Pages through GitHub Actions.
+
+1. Push this repo to GitHub.
+2. Go to **Settings → Pages**.
+3. Set **Source** to **GitHub Actions**.
+4. Push to `main`.
+
+## Important
+
+If your repository name is not `concentric-pcs-picker`, update the `base` value in `vite.config.js`.
 
 ## License
 
-This work is dedicated to the public domain under the  
-CC0 1.0 Universal (Public Domain Dedication).
-
-https://creativecommons.org/publicdomain/zero/1.0/
+CC0 1.0 Universal (Public Domain Dedication)
