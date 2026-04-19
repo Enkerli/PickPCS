@@ -26,7 +26,7 @@ This repo is configured for deployment to GitHub Pages through GitHub Actions.
 
 ## Important
 
-If your repository name is not `concentric-pcs-picker`, update the `base` value in `vite.config.js`.
+If your repository name is not `PickPCS`, update the `base` value in `vite.config.js`.
 
 ## License
 
